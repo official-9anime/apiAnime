@@ -1,21 +1,5 @@
 # **:triangular_flag_on_post: JKANIME** (version 2.0.4)
 
-![node version](https://img.shields.io/badge/node->=10.16.x-brightgreen.svg)
-![npm version](https://img.shields.io/badge/npm->=6.9.x-brightgreen.svg)
-  <a href="https://github.com/ChrisMichaelPerezSantiago/jkanime/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/ChrisMichaelPerezSantiago/jkanime/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
-  </a>
-  <img src="https://img.shields.io/badge/now.sh-deployed-brightgreen.svg" alt="">
-  <img src="https://badgen.net/badge/icon/now?icon=now&label" alt="">
-  <img src="https://img.shields.io/badge/jkanime-API-brightgreen.svg" alt="">
-  <img src="https://img.shields.io/github/stars/ChrisMichaelPerezSantiago/jkanime?style=social" alt="">
- 
- <a href="https://nodei.co/npm/jkanime/"><img src="https://nodei.co/npm/jkanime.png"></a>
-
-
 > 💡 The best API to extract data from jkanime, see the latest chapters of the anime of the moment without any restrictions with their respective servers for free. You can see the entire catalog and enjoy each chapter.
 
 ---
@@ -37,42 +21,6 @@
 - [x] helmet
 - [x] morgan
 - [x] node-fetch
-
----
-
-## ⚠️ Goodbye Message |  It remains in effect on 5/9/2020 ⚠️
-
-Hello Partners,
-
-Unfortunately I will be giving up on maintaining the library as I accept a job offer and I will start working this week and time will not allow me to do the maintenance.
-
-I understand that this news for many who use this library would be somewhat sad, but as I said, I have no choice. For me now the most important thing and my focus would be on the job.
-
-I very much appreciate those who supported the API, but this is not the end. For those who still want to continue using the API, I recommend that as soon as possible you fork the repo and locally maintain it, since I will stop maintaining it as soon as I start working this week.
-
-If you have any questions about the code and how to begin to understand it, you can let me know, and I will help you. So that you can continue to maintain it without problem.
-
-I hope you understand!
-
-
-
-## :rocket: Custom Jkanime API Link
-[Jkanime API](https://jkanime.chrismichael.now.sh/api/v1)
-
-
-## **:wrench: Developer usage**
-
-### **Set up project**
-
-Before cloning the repo **be sure** you have installed:
-
-- [**NODE**](https://www.google.com/search?q=how+to+install+node) (version >= 10.16.x)
-- [**NPM**](https://www.google.com/search?q=how+to+install+npm) (version >= 6.9.x)
-
-Then:
-
-- Choose a folder project in your system and switch in `cd [folder path]`
-- Clone the repo in your folder path `git clone https://github.com/ChrisMichaelPerezSantiago/jkanime.git`
 
 ---
 
@@ -838,46 +786,3 @@ getAnimeVideoByServer('psycho-pass-3' , 1)
   ]
 }
 ```
-
-
-
-## **:handshake: Contributing**
-
-- Fork it!
-- Create your feature branch: `git checkout -b my-new-feature`
-- Commit your changes: `git commit -am 'Add some feature'`
-- Push to the branch: `git push origin my-new-feature`
-- Submit a pull request
-
----
-
-### **:busts_in_silhouette: Credits**
-
-- [Chris Michael](https://github.com/ChrisMichaelPerezSantiago) (Project Leader, and Developer)
-
----
-
-## 📝 License
-This project is [MIT](https://github.com/ChrisMichaelPerezSantiago/jkanime/blob/master/LICENSE) licensed.
-
-
-### **:heart: Show your support**
-
-Please :star: this repository if you like it or this project helped you!\
-Feel free to open issues or submit pull-requests to help me improving my work.
-
-
----
-
-
-
-### **:robot: Author**
-
-_*Chris Michael*_
-
-> You can follow me on
-[github](https://github.com/ChrisMichaelPerezSantiago)&nbsp;&middot;&nbsp;[twitter](https://twitter.com/Chris5855M)
-
----
-
-Copyright © 2019 [Chris Michael](http://personal-porfolio.chrismichael.now.sh).
