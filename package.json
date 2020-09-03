@@ -1,0 +1,71 @@
+{
+  "name": "jkanime",
+  "version": "2.0.4",
+  "description": "💡 The best API to extract data from jkanime, see the latest chapters of the anime of the moment without any restrictions with their respective servers for free. You can see the entire catalog and enjoy each chapter.",
+  "main": "./src/api/api.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "dev-api": "nodemon src/api/api",
+    "lint": "eslint --fix src",
+    "audit": "snyk test",
+    "test": "mocha -w"
+  },
+  "keywords": [
+    "jkanime",
+    "anime",
+    "anime api",
+    "jkanime api"
+  ],
+  "author": {
+    "name": "Chris Michael",
+    "email": "chrisperezsantiago1@gmail.com",
+    "url": "http://personal-porfolio.chrismichael.now.sh",
+    "social": {
+      "github": "https://github.com/ChrisMichaelPerezSantiago",
+      "twitter": "https://twitter.com/Chris5855M"
+    }
+  },
+  "contributors": [
+    {
+      "name": "Chris Michael",
+      "url": "https://github.com/ChrisMichaelPerezSantiago",
+      "reason": "Project Leader, and Developer"
+    }
+  ],
+  "engines": {
+    "node": ">= 10.16.x",
+    "npm": ">= 6.9.x"
+  },
+  "bugs": {
+    "url": "https://github.com/ChrisMichaelPerezSantiago/jkanime/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisMichaelPerezSantiago/jkanime.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@joshuaavalon/cheerio-table-parser": "^1.0.3",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "compose-middleware": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "fuse.js": "^3.4.5",
+    "helmet": "^3.15.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "snyk": "^1.185.5",
+    "supertest": "^3.3.0"
+  }
+}
