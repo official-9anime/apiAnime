@@ -6,7 +6,6 @@ const router = express.Router();
 router.get('/', (req, res) => {
   res.json({
     message: 'jkanime API - 👋🌎🌍🌏',
-    author: 'Chris Michael',
     entries: [
       {
         'latestAnimeAdded': '/api/v1/latestAnimes',

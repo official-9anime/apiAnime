@@ -17,32 +17,9 @@
     "anime api",
     "jkanime api"
   ],
-  "author": {
-    "name": "Chris Michael",
-    "email": "chrisperezsantiago1@gmail.com",
-    "url": "http://personal-porfolio.chrismichael.now.sh",
-    "social": {
-      "github": "https://github.com/ChrisMichaelPerezSantiago",
-      "twitter": "https://twitter.com/Chris5855M"
-    }
-  },
-  "contributors": [
-    {
-      "name": "Chris Michael",
-      "url": "https://github.com/ChrisMichaelPerezSantiago",
-      "reason": "Project Leader, and Developer"
-    }
-  ],
   "engines": {
     "node": ">= 10.16.x",
     "npm": ">= 6.9.x"
-  },
-  "bugs": {
-    "url": "https://github.com/ChrisMichaelPerezSantiago/jkanime/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ChrisMichaelPerezSantiago/jkanime.git"
   },
   "license": "MIT",
   "dependencies": {
